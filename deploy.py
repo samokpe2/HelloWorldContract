@@ -36,13 +36,13 @@ with open("compiled_code.json", "w") as file:
     json.dump(compiled_sol, file)
 
 # get bytecode
-bytecode = compiled_sol["contracts"]["HelloWorld.sol"]["HelloWorld"]["evm"][
+bytecode = compiled_sol["contracts"]["HelloWorld.sol"]["Helloworld"]["evm"][
     "bytecode"
 ]["object"]
 
 # get abi
 abi = json.loads(
-    compiled_sol["contracts"]["HelloWorld.sol"]["HelloWorld"]["metadata"]
+    compiled_sol["contracts"]["HelloWorld.sol"]["Helloworld"]["metadata"]
 )["output"]["abi"]
 
 # w3 = Web3(Web3.HTTPProvider(os.getenv("RINKEBY_RPC_URL")))

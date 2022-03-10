@@ -3,3 +3,4 @@ My blockgames Intership first task, The Internship was hosted by Zuri Team in Co
 
 Contract Address
 0xa07D98126B1502483807B8EaeBC1180F363A2720
+https://rinkeby.etherscan.io/address/0xa07D98126B1502483807B8EaeBC1180F363A2720#code
